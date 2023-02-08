@@ -1,0 +1,18 @@
+s1:start
+s2:decalre i and n,sum
+s3:read n
+s4:initialize i=1,sum=0
+s5:check i value with n 
+if i<=n
+go to step6
+else 
+goto step9
+s6:check if i is odd number
+if i%2!=0
+goto step7
+else
+goto step8
+s7:sum=sum+i
+s8:increment i and repeat s5
+s9:display sum 
+s10:stop

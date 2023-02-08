@@ -1,0 +1,17 @@
+s1:start
+s2:decalre i and n
+s3:read n
+s4:initialize i=1
+s5:check i value with n 
+if i<=n
+go to step6
+else 
+goto step9
+s6:check if i is odd number
+if i%2!=0
+goto step7
+else
+goto step8
+s7:print the value of i
+s8:increment i and repeat from s5
+s9:stop
