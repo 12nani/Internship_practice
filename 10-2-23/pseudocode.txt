@@ -1,0 +1,118 @@
+//find whether number is even or odd:
+START
+Input num
+IF num % 2 = 0 THEN
+    Print "Even"
+ELSE
+    Print "Odd"
+END IF
+END
+----------------------------
+//find whether number is negative or positive
+START
+INPUT num
+IF num > 0 THEN
+    PRINT "Positive"
+ELSE IF num < 0 THEN
+    PRINT "Negative"
+ELSE
+    PRINT "Zero"
+END IF
+END
+-----------------------------
+//find whether the number is divisible by 5 or not
+START
+Input num
+IF num % 5 = 0 THEN
+    Print "Divisible by 5"
+ELSE
+    Print "Not Divisible by 5"
+END IF
+END
+---------------------------
+//vowel or not
+START
+Input char
+IF char = 'A' OR char = 'E' OR char = 'I' OR char = 'O' OR char = 'U' OR char = 'a' OR char = 'e' OR char = 'i' OR char = 'o' OR char = 'u' THEN
+    Print "The character is a vowel"
+ELSE
+    Print "The character is a consonant"
+END IF
+END
+--------------------------------
+//alphabet or nummber or charecter
+START
+Input char
+IF (char >= 'A' AND char <= 'Z') OR (char >= 'a' AND char <= 'z') THEN
+    Print "The character is an alphabet"
+ELSE IF char >= '0' AND char <= '9' THEN
+    Print "The character is a digit"
+ELSE
+    Print "The character is a special character"
+END IF
+END
+-------------------------------
+//AREA AND PERIMETER OF SQUARE
+START
+Input side,area,perimeter
+READ side
+area=side*side
+perimeter=4*area
+Print area, perimeter
+END
+------------------------
+//AREA AND PERIMETER OF RECTANGLE
+BEGIN
+Input s1,s2,area,perimeter
+READ s1,s2
+area=s1*s2
+perimeter=2*(s1+s2)
+PRINT area
+PRINT perimeter
+END
+-------------------------
+//AREA AND PERIMETER OF TRIANGLE
+START
+INPUT base,height,s1,s2,s3
+area = (base * height) / 2
+perimeter = s1 + s2 + s3
+PRINT area, perimeter
+END
+-----------------------
+//SUM OF 2 NUMBERS
+BEGIN
+DECLARE num1,num2,sum;
+READ num1,num2;
+CALCULATE sum=num1+num2;
+DISPLAY sum;
+END
+----------------------
+//BIGGEST OF 3 NUMBERS
+BEGIN
+DECLARE num1,num2,num3
+READ num1,num2,num3
+IF (num1>num2) && (num1>num3) THEN
+DISPLAY "num1 is bigger"
+ELSE IF (num2>num1) && (num2>num3) THEN
+DISPLAY "num2 is bigger"
+ELSE
+DISPLAY "num3 is bigger"
+END IF
+END
+------------------------
+//print sum of even numbers
+BEGIN
+DECLARE n,i,sum
+READ n
+INTIALISE i=0 sum=0
+WHILE (i<=n) DO
+IF i%2==0 THEN
+CALCULATE sum=sum+i
+END IF
+i=i+1
+END WHILE
+DISPLAY sum
+END
+-----------------------
+
+
