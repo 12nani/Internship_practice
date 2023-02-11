@@ -1,0 +1,18 @@
+s1:start
+s2:declare i and n,sum
+s3:read n
+s4:intialize i and sum=0
+s5:chech i value with n 
+if i<=n
+go to s5
+else 
+goto s7
+s6:check if i is divisible by 2 or not
+if i%2==0 
+goto step5
+else 
+goto step6
+s7:sum=sum+i
+s8:increment i go to step 4
+s9:display sum value
+s10:stop
